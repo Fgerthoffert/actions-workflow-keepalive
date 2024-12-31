@@ -104,4 +104,6 @@ export async function run(): Promise<void> {
       }
     }
   }
+
+  core.info(`Done processing repositories`)
 }

@@ -28892,6 +28892,7 @@ async function run() {
             }
         }
     }
+    core.info(`Done processing repositories`);
 }
 
 ;// CONCATENATED MODULE: ./src/index.ts
