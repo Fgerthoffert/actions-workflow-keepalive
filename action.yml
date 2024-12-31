@@ -1,23 +1,36 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Workflows keepalive'
+description:
+  'A GitHub Action to keep your workflows alive based on repository topics by
+  re-enableing workflows in the "disabled_inactivity" state'
+author: 'fgerthoffert'
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
-  icon: 'heart'
-  color: 'red'
+  icon: activity
+  color: green
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  org:
+    description: 'A GitHub Organization'
     required: true
-    default: '1000'
-
-# Define your outputs here.
-outputs:
-  time:
-    description: 'Your output description here'
+  token:
+    description: 'A GitHub Personal API Token'
+    required: true
+  max_query_nodes:
+    description: 'Maximum number of nodes to fetch per GraphQL query'
+    required: true
+    default: 30
+  filter_topics:
+    description:
+      'Comma separated list of topics to filter repositories by. Use EMPTY to
+      filter by repositories without topics'
+    default: ''
+    required: false
+  filter_operator:
+    description: 'OR, AND operator to filter repositories by topics'
+    default: 'AND'
+    required: false
 
 runs:
   using: node20
