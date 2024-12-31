@@ -1,7 +1,6 @@
 name: 'Workflows keepalive'
 description:
-  'A GitHub Action to keep your workflows alive based on repository topics by
-  re-enableing workflows in the "disabled_inactivity" state'
+  'Keep your workflows enabled by re-enabling workflows in the "disabled_inactivity" state. Filtering by repo topics available.'
 author: 'fgerthoffert'
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
