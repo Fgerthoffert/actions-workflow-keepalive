@@ -2,9 +2,9 @@
 <p align="center">
   <img alt="ZenCrepesLogo" src="docs/zencrepes-logo.png" height="140" />
   <h2 align="center">Keepalive Workflows</h2>
-  <p align="center">A GitHub Action to keep your workflows alive based 
-  on repository topics by re-enableing workflows in the 
-  "disabled_inactivity" state</p>
+  <p align="center">A GitHub Action to keep your workflows alive based
+  on repository topics by re-enableing workflows in the "disabled_inactivity"
+  state</p>
 </p>
 
 ---
