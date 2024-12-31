@@ -1,3 +1,6 @@
+/* eslint-disable  @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable  @typescript-eslint/no-unsafe-call */
+/* eslint-disable  @typescript-eslint/no-unsafe-member-access */
 /**
  * Unit tests for the action's entrypoint, src/index.ts
  */
